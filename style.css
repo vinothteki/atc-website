@@ -1,0 +1,82 @@
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+
+  > .col,
+  > [class*="col-"] {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+div.dotcircle {
+	width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    top: 50%;
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    display: inline-block;
+}
+
+.text {
+	display: inline-block;
+}
+
+div.col.statistic {
+	height:70px;
+	line-height:70px;
+	text-align: center;	
+	color: #FFFFFF
+}
+
+div.col.statistic.odd {
+	background-color: #4079ae;
+}
+
+div.col.statistic.even {
+	background-color: #51b8e1;
+}
+.col-4.menu-image {
+	margin-left: 5%;
+}
+.col-7.menu-list {
+	right: 1%;
+}
+.col.text-content {
+  left: 0px;
+}
+/* resize images */
+.col.image-container {
+  padding-left: 0px;
+  padding-right: 100px;
+}
+.col.image-container img {
+    width: 100%;
+    height: auto;
+}
+#worldMap {
+  background: url('WorldMap.png');
+  background-repeat : no-repeat;
+  background-position: 50% 50%;
+  height: 500px;
+  opacity: 0.6;
+  background-color: rgba(255,255,255,0.6);
+}
+.form-control.detail {
+  border: 0;
+  outline: 0;
+  border-bottom: 1px solid #000;
+  background: transparent;
+  color: #000;
+}
+.form-control.detail:focus {
+  border: 0;
+  outline: none;
+  box-shadow: none;
+  border-bottom: 1px solid #000;
+}
+.nav-link.anchor {
+  color: #999;
+  text-align: left;
+}
