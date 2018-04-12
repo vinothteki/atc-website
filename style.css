@@ -71,15 +71,14 @@ div.col.statistic.four {
 .form-control.detail {
   border: 0;
   outline: 0;
-  border-bottom: 1px solid #000;
-  background: transparent;
   color: #000;
+  background-color: #f5f5f5;
 }
 .form-control.detail:focus {
   border: 0;
   outline: none;
   box-shadow: none;
-  border-bottom: 1px solid #000;
+  background-color: #f5f5f5;
 }
 .nav-link.anchor {
   color: #999;
